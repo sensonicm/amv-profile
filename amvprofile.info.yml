@@ -1,0 +1,16 @@
+name: amvprofile
+type: profile
+description: 'AMV base install profile'
+core_version_requirement: ^9
+version: VERSION
+distribution:
+  name: AMV Project
+install:
+  - node
+  - block
+  - dblog
+  - page_cache
+  - dynamic_page_cache
+themes:
+  - bartik
+  - seven
